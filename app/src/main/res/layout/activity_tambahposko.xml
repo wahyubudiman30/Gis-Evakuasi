@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahposkoActivity">
+
+    <ImageView
+        android:id="@+id/image7"
+        android:layout_width="414dp"
+        android:layout_height="313dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/atsedprofl" />
+
+    <ImageView
+        android:id="@+id/image8"
+        android:layout_width="456dp"
+        android:layout_height="580dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496"
+        app:srcCompat="@drawable/ktkedprofl" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="TAMBAH POSKO"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="TAMBAH DATA"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <Button
+        android:id="@+id/BtnSimpanPengungsian"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:text="SIMPAN"
+        app:layout_constraintBottom_toBottomOf="@+id/image8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <Button
+        android:id="@+id/BtnLihatData"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:text="Lihat Data"
+        app:layout_constraintBottom_toBottomOf="@+id/image8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <EditText
+        android:id="@+id/TxNamaLokasi"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Nama Lokasi"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <EditText
+        android:id="@+id/TxAlamatPengungsian"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <EditText
+        android:id="@+id/TxKelurahan"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Kelurahan"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <EditText
+        android:id="@+id/Txkecamatan"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Kecamatan"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <EditText
+        android:id="@+id/TxLongitude"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Latitude"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <EditText
+        android:id="@+id/TxLatitude"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Latitude"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image8"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="416dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image7"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bwh" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
