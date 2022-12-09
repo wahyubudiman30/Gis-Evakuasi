@@ -8,15 +8,15 @@
 
     <ImageView
         android:id="@+id/image1"
-        android:layout_width="564dp"
-        android:layout_height="555dp"
+        android:layout_width="420dp"
+        android:layout_height="314dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/atsutm" />
+        app:srcCompat="@drawable/atsedprofl" />
 
     <ImageView
         android:id="@+id/image2"
@@ -70,21 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.046" />
-
-    <EditText
-        android:id="@+id/TxConfPassAdmBaru"
-        android:layout_width="311dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:hint="Konfirmasi Password"
-        android:inputType="textPassword"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/image2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.159" />
 
     <EditText
         android:id="@+id/TxPassAdmBaru"
@@ -98,7 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.751" />
+        app:layout_constraintVertical_bias="0.865" />
 
     <EditText
         android:id="@+id/TxEmailBaru"
@@ -113,7 +99,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.651" />
+        app:layout_constraintVertical_bias="0.765" />
 
     <EditText
         android:id="@+id/TxAlamatBaru"
@@ -128,7 +114,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.548" />
+        app:layout_constraintVertical_bias="0.661" />
+
+    <EditText
+        android:id="@+id/TxJabatanBaru"
+        android:layout_width="311dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Jabatan"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image2"
+        app:layout_constraintVertical_bias="0.559" />
 
     <EditText
         android:id="@+id/TxTeleponBaru"
@@ -144,22 +145,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.346" />
-
-    <EditText
-        android:id="@+id/TxJabatanBaru"
-        android:layout_width="311dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:hint="Jabatan"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/image2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.446" />
+        app:layout_constraintVertical_bias="0.459" />
 
     <EditText
         android:id="@+id/TxJenisKelaminBaru"
@@ -174,7 +160,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.246" />
+        app:layout_constraintVertical_bias="0.359" />
 
     <EditText
         android:id="@+id/TxTtlAdminBaru"
@@ -189,7 +175,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.146" />
+        app:layout_constraintVertical_bias="0.259" />
+
+    <EditText
+        android:id="@+id/TxConfPassAdmBaru"
+        android:layout_width="311dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Konfirmasi Password"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image2"
+        app:layout_constraintVertical_bias="0.963" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -203,18 +203,26 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/bwhh" />
 
-    <TextView
-        android:id="@+id/BtnUploadFoto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Upload Foto"
-        android:textColor="#0027FF"
-        android:textSize="16sp"
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="72dp"
+        android:layout_height="54dp"
         app:layout_constraintBottom_toBottomOf="@+id/image2"
         app:layout_constraintEnd_toEndOf="@+id/image2"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/image2"
         app:layout_constraintTop_toTopOf="@+id/image2"
-        app:layout_constraintVertical_bias="0.931" />
+        app:layout_constraintVertical_bias="0.013"
+        app:srcCompat="@drawable/person_add" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Foto"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/TxUsernameBaru"
+        app:layout_constraintEnd_toEndOf="@+id/image2"
+        app:layout_constraintStart_toStartOf="@+id/image2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

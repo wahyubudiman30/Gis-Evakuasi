@@ -43,6 +43,19 @@
         app:srcCompat="@drawable/bwh" />
 
     <ImageView
+        android:id="@+id/BtnTentang"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:onClick="Tentang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.313"
+        app:srcCompat="@drawable/mninfo" />
+
+    <ImageView
         android:id="@+id/BtnPosko"
         android:layout_width="80dp"
         android:layout_height="70dp"
@@ -52,7 +65,7 @@
         app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.098"
+        app:layout_constraintVertical_bias="0.313"
         app:srcCompat="@drawable/mnposko" />
 
     <ImageView
@@ -62,10 +75,10 @@
         android:onClick="Maps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintHorizontal_bias="0.353"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.092"
+        app:layout_constraintVertical_bias="0.307"
         app:srcCompat="@drawable/mnmaps" />
 
     <ImageView
@@ -78,49 +91,8 @@
         app:layout_constraintHorizontal_bias="0.637"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.097"
+        app:layout_constraintVertical_bias="0.313"
         app:srcCompat="@drawable/mnkntak" />
-
-    <ImageView
-        android:id="@+id/BtnTentang"
-        android:layout_width="80dp"
-        android:layout_height="70dp"
-        android:onClick="Tentang"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.921"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.098"
-        app:srcCompat="@drawable/mninfo" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DASHBOARD"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.081"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462" />
-
-    <ImageView
-        android:id="@+id/BtnProfil"
-        android:layout_width="45dp"
-        android:layout_height="44dp"
-        android:onClick="Profil"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.461"
-        app:srcCompat="@drawable/person" />
 
     <TextView
         android:id="@+id/textView4"
@@ -135,7 +107,7 @@
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnPosko"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.032" />
 
     <TextView
         android:id="@+id/textView5"
@@ -150,7 +122,7 @@
         app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnMaps"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintVertical_bias="0.043" />
 
     <TextView
         android:id="@+id/textView6"
@@ -165,7 +137,7 @@
         app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnContact"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.032" />
 
     <TextView
         android:id="@+id/textView7"
@@ -180,5 +152,34 @@
         app:layout_constraintHorizontal_bias="0.856"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnTentang"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DASHBOARD"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <ImageView
+        android:id="@+id/BtnProfil"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:onClick="Profil"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136"
+        app:srcCompat="@drawable/person" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
