@@ -35,6 +35,8 @@ public class DashboardAdminActivity extends AppCompatActivity {
     }
 
     public void Berita(View view) {
+        Intent intent = new Intent(DashboardAdminActivity.this,BeritaActivity.class);
+        startActivity(intent);
     }
 
     public void About(View view) {
