@@ -29,13 +29,16 @@ public class DashboardAdminActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void Tentang(View view) {
-        Intent intent = new Intent(DashboardAdminActivity.this,TentangActivity.class);
+    public void Profil(View view) {
+        Intent intent = new Intent(DashboardAdminActivity.this,ProfilActivity.class);
         startActivity(intent);
     }
 
-    public void Profil(View view) {
-        Intent intent = new Intent(DashboardAdminActivity.this,ProfilActivity.class);
+    public void Berita(View view) {
+    }
+
+    public void About(View view) {
+        Intent intent = new Intent(DashboardAdminActivity.this,TentangActivity.class);
         startActivity(intent);
     }
 }

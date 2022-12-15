@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.GisEvakuasiBencana" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#263159</item>
+        <item name="colorPrimary">#1A1F3B</item>
         <item name="colorPrimaryVariant">#35498F</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

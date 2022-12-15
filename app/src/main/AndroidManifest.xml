@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GisEvakuasiBencana">
         <activity
+            android:name=".BeritaActivity"
+            android:exported="false" />
+        <activity
             android:name=".EditcontactActivity"
             android:exported="false" />
         <activity
